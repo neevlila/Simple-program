@@ -1,25 +1,20 @@
-#include <iostream>
+#include<iostream>
 using namespace std;
+int main()
+{
+    int a,b;
+    
+    cout << "enter the number one::";
+    cin >> a;
 
-bool isVowel(char ch) {
-    ch = tolower(ch); // Convert character to lowercase for case-insensitivity
-    return (ch == 'a' || ch == 'e' || ch == 'i' || ch == 'o' || ch == 'u');
-}
+    cout << "enter the number two::";
+    cin >> b;
 
-int main() {
-    char character;
-    cout << "Enter a character: ";
-    cin >> character;
+    cout << "Sum of two numbers::"<<a+b<<endl;
+    cout << "Sub of two numbers::"<<a-b<<endl;
+    cout << "mul of two numbers::"<<a*b<<endl;
+    cout << "div of two numbers::"<<a/b<<endl;
 
-    if (isalpha(character)) {
-        if (isVowel(character)) {
-            cout << character << " is a vowel." << endl;
-        } else {
-            cout << character << " is a consonant." << endl;
-        }
-    } else {
-        cout << "Invalid input. Please enter an alphabet character." << endl;
-    }
-    cout << "220130318021";
+    cout << "enrollment no::220130318021";
     return 0;
 }
