@@ -15,6 +15,7 @@ int main()
     cout << "mul of two numbers::"<<a*b<<endl;
     cout << "div of two numbers::"<<a/b<<endl;
 
-    cout << "enrollment no::220130318021";
+    cout << "Enrollment no::220130318021";
+    cout << endl << "Name. Lila Neev.";
     return 0;
 }
